@@ -21,6 +21,7 @@ text-align: left
             height: 1.5em;
             padding:0.2em;
             margin:0 0.3em;
+            padding: 0.04em;
         }
     }
 }
@@ -29,6 +30,7 @@ text-align: left
     margin-right: 3em;
     position: absolute;
     right: 0;
+    padding: 0.4em;
 }
 
 .field{

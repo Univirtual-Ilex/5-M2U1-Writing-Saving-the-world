@@ -17,7 +17,7 @@ const Home_base = function ({staticContext, ...props}) { // se le pasan las prop
                             <p>
                             In the following exercises arrange the words correctly to create sentences.
                             </p>
-                            <ButtonLink to='/actividad1'>Start</ButtonLink>
+                            <ButtonLink  className="start" to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
                     <div className='bloque-derecho'>

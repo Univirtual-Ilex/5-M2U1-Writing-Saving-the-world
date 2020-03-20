@@ -19,6 +19,7 @@ const estilos_home = css`
     .bloque-izquierdo {
         padding:5em 3em 3em 5em;
         box-sizing:border-box;
+        margin-top: 1em;
         .bloque-izquierdo-container{
         width:27.5em;
         margin: auto;
@@ -41,6 +42,9 @@ const estilos_home = css`
             display:block;
             width:28.5em;
             height: auto;
+            transform: scale(0.6);
+            margin-top: -10em;
+            margin-left: 5em;
         }
 
     }
@@ -51,7 +55,9 @@ const estilos_home = css`
     .saldida-top-X{
         animation-name: ${animations.entrada_top_Y}
     }
-
+    .start{
+        margin-top: -0.2em;
+    }
 
 `
 

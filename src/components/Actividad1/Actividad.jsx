@@ -34,11 +34,11 @@ const Actividad_base =  ({staticContext,...props})  => {
     },[okSentences])
 
     return (
-        <Container bgImage='./src/bg_actividad1.png' w={69} h={38.8} {...props}>
+        <Container bgImage='./src/bg_actividad1.png' w={69} h={38} {...props}>
             
             <UiButtonsContainer>
-                <ButtonUi icon='ilx-ayuda' tooltip='slide the sentences to organize them, then press check to verify if it is right or wrong, press hint if you need help   ' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+                <ButtonUi icon='ilx-ayuda' tooltip='Slide the sentences to organize them, then press check to verify if it is right or wrong, press hint if you need help   ' />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={() => {window.location.href = '/actividad1'}} />
             </UiButtonsContainer>
      
 
